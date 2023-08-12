@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="min-h-screen flex flex-col justify-between">
+    <div className="flex flex-col justify-between">
       <main>{children}</main>
       <footer className="text-gray-300">
         <div className="flex justify-center items-center gap-1.5 m-24">
